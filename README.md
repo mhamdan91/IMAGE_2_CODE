@@ -10,9 +10,6 @@ Convert images of python code into formatted python code
 * open-cv (cv2)
 
 ## Tesseract Installation
-1- Install pytesseract, e.g. using pip --> **pip install pytesseract**
-2- Install Tesseract OCR .exe to this location on your machine: C:\Users\\**username**\AppData\Roaming 
-
-
-## Example 
-
+    1- Install pytesseract, e.g. using pip --> **pip install pytesseract**
+    2- Install Tesseract OCR .exe to this location on your machine: C:\Users\\**username**\AppData\Roaming 
+------------------------------------
