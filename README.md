@@ -1,6 +1,6 @@
 # IMAGE_2_CODE
-        Convert images of python code into formatted python code
-        Uses Neural LSTM Engine technology
+        Convert images of python code into formatted python code.
+        Uses Neural LSTM Engine technology.
 
 ## Rquirements/dependencies: 
 ### To run this code, you need the following packages:
@@ -14,3 +14,12 @@
     1- Install pytesseract, e.g. using pip --> **pip install pytesseract**
     2- Install Tesseract-OCR .exe to this location on your machine: C:\Users\\username\AppData\Roaming 
 ------------------------------------
+
+### Main.py Arguments:
+    1. '-i', '--input_path', default='input\code.png', type=str, help='Directory to input images or path to input image -- default: input\code.png'
+    2. '-o', '--output_path', default='output', type=str, help=' Path to output directory where generated code will be saved -- default: output'
+    3. '-b', '--bg', default=False, type=bool, help=' Employ background processing along with Neural LSTM engine. -- default: False'
+    4. '-g', '--gamma', default=False, type=bool, help=' Adjust input image gamma level -- default: False'
+
+## Simple Use [this will convert all files in the input files]
+    python main.py -i input -o output
