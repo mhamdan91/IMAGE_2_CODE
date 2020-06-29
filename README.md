@@ -15,7 +15,7 @@
     2- Install Tesseract-OCR .exe to this location on your machine: C:\Users\\username\AppData\Roaming 
 ------------------------------------
 
-### main.py arguments:
+### Main.py Arguments:
     1. '-i', '--input_path', default='input\code.png', type=str, help='Directory to input images or path to input image -- default: input\code.png'
     2. '-o', '--output_path', default='output', type=str, help=' Path to output directory where generated code will be saved -- default: output'
     3. '-b', '--bg', default=False, type=bool, help=' Employ background processing along with Neural LSTM engine. -- default: False'
