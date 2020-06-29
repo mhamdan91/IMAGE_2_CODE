@@ -9,7 +9,7 @@ from utils import *
 sep = os.sep
 
 pytesseract.pytesseract.tesseract_cmd = os.getenv('APPDATA')+sep+r'Tesseract-OCR'+sep+'tesseract.exe'
-# pytesseract.pytesseract.tesseract_cmd = 'user/local/Cellar/tesseract/version/tesseract   #MAC os
+
 
 
 
@@ -31,11 +31,17 @@ def run(input_path = 'input'+sep+'code.png', output_path= 'output', bg= False, g
         # read only .png files
         for path in glob.glob(input_path+sep+'*.png'):
             paths.append(path)
-
+        if len(paths) == 0:
+            for path in glob.glob(input_path + sep + '*.PNG'):
+                paths.append(path)
         # trt look for jepg if no png found
+        if len(paths) == 0:
+            for path in glob.glob(input_path + sep + '*.JPEG'):
+                paths.append(path)
         if len(paths) == 0:
             for path in glob.glob(input_path+sep+'*.jpeg'):
                 paths.append(path)
+
     else:
         paths.append(input_path)
 
