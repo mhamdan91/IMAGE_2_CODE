@@ -17,6 +17,6 @@
 
 ### main.py arguments:
     1. '-i', '--batch_size', default=2, type=int, help='Batch size between 1 & 15 -- default: 2 '
-    2. '-o', '--train_mode', default=0, type=int, help='0: Predict, 1: Train from a previous checkpoint, 2: Train from scratch -- default: 0'
+    2. '-o', '--output_path', default='output', type=str, help=' Path to output directory where generated code will be saved -- default: output'
     3. '-b', '--bg', default=False, type=bool, help=' Employ background processing along with Neural LSTM engine. -- default: False'
     4. '-g', '--gamma', default=False, type=bool, help=' Adjust input image gamma level -- default: False'
