@@ -21,7 +21,7 @@
     3. '-b', '--bg', default=False, type=bool, help=' Employ background processing along with Neural LSTM engine. -- default: False'
     4. '-g', '--gamma', default=False, type=bool, help=' Adjust input image gamma level -- default: False'
 
-## Simple Use [this will convert all files in the input files]
+## Simple Use [this will convert all files in the "input" directory]
     python main.py -i input -o output
 
 ![Sample Output](example.png)    
