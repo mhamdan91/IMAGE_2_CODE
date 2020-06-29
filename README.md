@@ -20,3 +20,6 @@
     2. '-o', '--output_path', default='output', type=str, help=' Path to output directory where generated code will be saved -- default: output'
     3. '-b', '--bg', default=False, type=bool, help=' Employ background processing along with Neural LSTM engine. -- default: False'
     4. '-g', '--gamma', default=False, type=bool, help=' Adjust input image gamma level -- default: False'
+
+## Simple Use [this will convert all files in the input files]
+    python main.py -i 'input' -o 'output
