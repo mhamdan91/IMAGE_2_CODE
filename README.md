@@ -1,5 +1,5 @@
 # IMAGE_2_CODE
-Convert images of python code into formatted python code
+        Convert images of python code into formatted python code
 
 # Rquirements/dependencies: 
 ### To run this code, you need the following packages:
