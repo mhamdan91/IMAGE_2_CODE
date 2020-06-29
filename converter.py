@@ -139,7 +139,7 @@ def run(input_path = 'input'+sep+'code.png', output_path= 'output', bg= False, g
 
 
         print("=============================")
-        print("saving .py files")
+        print("saving "+image_name+".py files")
         print("=============================")
         # save to a file
         txt = ""
