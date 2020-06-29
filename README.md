@@ -13,7 +13,7 @@
 ## Tesseract Installation
     1- Install pytesseract, e.g. using pip --> **pip install pytesseract**
     2- Install Tesseract-OCR .exe to the following location on your windows machine: C:\Users\your_username\AppData\Roaming 
-    3- if running on MAC OS, then you'll have to change this [line](https://github.com/mhamdan91/IMAGE_2_CODE/blob/master/converter.py#L11) to where tesseract is installed
+   if running on MAC OS, then you'll have to change this [line](https://github.com/mhamdan91/IMAGE_2_CODE/blob/master/converter.py#L11) to where tesseract is installed
 ------------------------------------
 
 ### Main.py Arguments:
