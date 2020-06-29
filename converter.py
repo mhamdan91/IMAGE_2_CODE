@@ -9,7 +9,7 @@ from utils import *
 sep = os.sep
 
 pytesseract.pytesseract.tesseract_cmd = os.getenv('APPDATA')+sep+r'Tesseract-OCR'+sep+'tesseract.exe'
-
+# pytesseract.pytesseract.tesseract_cmd = 'user/local/Cellar/tesseract/version/tesseract   #MAC os
 
 
 
