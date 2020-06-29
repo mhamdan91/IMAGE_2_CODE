@@ -8,5 +8,5 @@ Convert images of pythonic code into formatted python code
 * open-cv (cv2)
 
 # Tesseract Installation
-1- Install the .exe to this location on your machine: C:\Users\**username**\AppData\Local
+1- Install the .exe to this location on your machine: C:\Users\*username*\AppData\Local
 2- Open main file and replace 
