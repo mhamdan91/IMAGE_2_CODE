@@ -4,7 +4,7 @@
 
 ## Rquirements/dependencies: 
 ### To run this code, you need the following packages:
-* Tesseract-OCR --> download from this [**Link**](https://tesseract-ocr.github.io/tessdoc/4.0-with-LSTM.html#400-alpha-for-windows) or if running on windows download the binaries from the [**tesseract_exe**](https://github.com/mhamdan91/IMAGE_2_CODE/tree/master/tesseract_exe) folder.
+* Tesseract-OCR --> download from this [**Link**](https://github.com/tesseract-ocr/tesseract/wiki) or if running on windows download the binaries from the [**tesseract_exe**](https://github.com/mhamdan91/IMAGE_2_CODE/tree/master/tesseract_exe) folder.
 * pytesseract.
 * numpy.
 * matplotlib.
