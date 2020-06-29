@@ -1,5 +1,6 @@
 # IMAGE_2_CODE
         Convert images of python code into formatted python code
+        Uses Neural LSTM Engine technology
 
 ## Rquirements/dependencies: 
 ### To run this code, you need the following packages:
