@@ -4,7 +4,7 @@
 
 ## Rquirements/dependencies: 
 ### To run this code, you need the following packages:
-* Tesseract-OCR --> download from this [**Link**](https://tesseract-ocr.github.io/tessdoc/4.0-with-LSTM.html#400-alpha-for-windows) or if running on windows download the binaries from the [**tesseract_exe**](https://github.com/mhamdan91/IMAGE_2_CODE/tree/master/tesseract_exe) folder.
+* Tesseract-OCR --> download from this [**Link**](https://github.com/tesseract-ocr/tesseract/wiki) or if running on windows download the binaries from the [**tesseract_exe**](https://github.com/mhamdan91/IMAGE_2_CODE/tree/master/tesseract_exe) folder.
 * pytesseract.
 * numpy.
 * matplotlib.
@@ -12,7 +12,7 @@
 
 ## Tesseract Installation
     1- Install pytesseract, e.g. using pip --> **pip install pytesseract**
-    2- Install Tesseract-OCR .exe to this location on your machine: C:\Users\\username\AppData\Roaming 
+    2- Install Tesseract-OCR .exe to the following location on your machine: C:\Users\your_username\AppData\Roaming 
 ------------------------------------
 
 ### Main.py Arguments:
@@ -21,7 +21,11 @@
     3. '-b', '--bg', default=False, type=bool, help=' Employ background processing along with Neural LSTM engine. -- default: False'
     4. '-g', '--gamma', default=False, type=bool, help=' Adjust input image gamma level -- default: False'
 
-## Simple Use [this will convert all files in the input files]
+## Simple Use [this will convert all files in the "input" directory]
     python main.py -i input -o output
 
 ![Sample Output](example.png)    
+
+
+------------------------------------------
+### Created by: Muhammad Hamdan	 
