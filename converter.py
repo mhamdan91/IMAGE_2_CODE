@@ -28,19 +28,15 @@ def run(input_path = 'input'+sep+'code.png', output_path= 'output', bg= False, g
         #         print(os.path.join(dirname, filename))
         #         paths.append(os.path.join(dirname, filename))
 
-        # read only .png files
+        # read .png .PNG .jpeg and .JPEG
         for path in glob.glob(input_path+sep+'*.png'):
             paths.append(path)
-        if len(paths) == 0:
-            for path in glob.glob(input_path + sep + '*.PNG'):
-                paths.append(path)
-        # trt look for jepg if no png found
-        if len(paths) == 0:
-            for path in glob.glob(input_path + sep + '*.JPEG'):
-                paths.append(path)
-        if len(paths) == 0:
-            for path in glob.glob(input_path+sep+'*.jpeg'):
-                paths.append(path)
+        for path in glob.glob(input_path + sep + '*.PNG'):
+            paths.append(path)
+        for path in glob.glob(input_path + sep + '*.JPEG'):
+            paths.append(path)
+        for path in glob.glob(input_path+sep+'*.jpeg'):
+            paths.append(path)
 
     else:
         paths.append(input_path)
