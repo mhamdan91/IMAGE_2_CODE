@@ -25,3 +25,6 @@
     python main.py -i input -o output
 
 ![Sample Output](example.png)    
+
+
+### Created by: Muhammad Hamdan	 
