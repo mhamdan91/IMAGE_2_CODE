@@ -22,4 +22,4 @@
     4. '-g', '--gamma', default=False, type=bool, help=' Adjust input image gamma level -- default: False'
 
 ## Simple Use [this will convert all files in the input files]
-    python main.py -i 'input' -o 'output
+    python main.py -i input -o output
