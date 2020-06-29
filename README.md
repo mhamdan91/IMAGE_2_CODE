@@ -1,6 +1,7 @@
 # IMAGE_2_CODE
 Convert images of pythonic code into formatted python code
-Requirements:
+
+#Requirements:
 Tesseract 2.0
 numpy 
 matplotlib
