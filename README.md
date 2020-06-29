@@ -1,7 +1,7 @@
 # IMAGE_2_CODE
         Convert images of python code into formatted python code
 
-# Rquirements/dependencies: 
+## Rquirements/dependencies: 
 ### To run this code, you need the following packages:
 * Tesseract-OCR --> download from this [**Link**](https://tesseract-ocr.github.io/tessdoc/4.0-with-LSTM.html#400-alpha-for-windows) or if running on windows download the binaries from the **tesseract_exe** folder
 * pytesseract
