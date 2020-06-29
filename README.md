@@ -23,3 +23,5 @@
 
 ## Simple Use [this will convert all files in the input files]
     python main.py -i input -o output
+
+![Sample Output](example.png)    
